@@ -1,0 +1,144 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white; 
+}
+
+header {
+  background-color: rgba(255,255,255,1);
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  border: blue;
+  background-color: white;
+}
+
+
+.container
+{
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  gap: 50px;
+  width: 1440px;
+  height: 59px;
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  background-color: white;
+}
+.contact-us-btn {
+  background: linear-gradient(225deg, #6675F7 0%, #57007B 100%);
+  color:white;
+  padding-top:14px;
+  padding-right:25px; 
+  padding-bottom:14px;  
+  padding-left:25px; 
+  border-radius: 5px;
+  border: none; 
+  width: 124px;
+  height:42px ;
+  gap :10px;
+}
+
+.hero {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: blue 1px solid;
+  width:1347px;
+  height: 546px;
+
+}
+.head
+{
+  font-size: larger;
+
+}
+.hero-content {
+  width: 799px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid blueviolet;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: #333; 
+}
+
+.hero-content h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.get-started-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none; 
+  width: 175px;
+  height: 52px;
+  align-self: flex-start; 
+  margin-top: auto; 
+}
+
+.hero-image {
+  flex: 1; 
+  background-image: url('main.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%; 
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+nav
+{
+ display: flex;
+
+}
+label{
+  width: 92px;
+  height: 15px;
+  top: 25px;
+  left: 73px;
+ font-family: Inspiration;
+ text-align: left;
+
+}
+label::before{
+  content:url(Logo.png);
+  display: inline-block;
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}

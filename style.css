@@ -64,9 +64,8 @@ header {
   justify-content: space-between;
   align-items: center;
   border: blue 1px solid;
-  width:1347px;
-  height: 546px;
-
+  width: 1347px;
+  height: 594px;;
 }
 .head
 {
@@ -74,8 +73,8 @@ header {
 
 }
 .hero-content {
-  width: 799px;
-  height: 300px;
+  width: 733px;
+  height: 333px;
   display: flex;
   justify-content: space-between;
   border: 2px solid blueviolet;
@@ -111,11 +110,9 @@ header {
   background-image: url('main.png'); 
   background-size: cover;
   background-position: center; 
-  height: 75%; 
-  width: 75%;
-  
-  
-}
+ width: 614px;
+ height:416px;
+ }
 
 footer {
   background-color: #333;
